@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For the Love of My Life ❤️</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --pink:#ff4d6d;
+      --rose:#ffccd5;
+      --soft:#fff0f5;
+      --dark:#2b2b2b;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box;}
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:linear-gradient(to bottom,var(--soft),#ffffff);
+      color:var(--dark);
+      scroll-behavior:smooth;
+      overflow-x:hidden;
+    }
+
+    section{
+      padding:6rem 8vw;
+    }
+
+    h2{
+      font-family:'Playfair Display',serif;
+      font-size:2.4rem;
+      text-align:center;
+      color:var(--pink);
+      margin-bottom:2rem;
+    }
+
+    /* HERO */
+    header{
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      background:radial-gradient(circle at top,var(--rose),var(--soft));
+      position:relative;
+    }
+
+    header h1{
+      font-family:'Playfair Display',serif;
+      font-size:clamp(3rem,6vw,5rem);
+      color:var(--pink);
+    }
+
+    header p{
+      max-width:700px;
+      margin:1.5rem auto;
+      font-size:1.1rem;
+    }
+
+    .scroll-down{
+      position:absolute;
+      bottom:40px;
+      font-size:1rem;
+      opacity:.7;
+      animation:bounce 2s infinite;
+    }
+
+    @keyframes bounce{
+      0%,100%{transform:translateY(0)}
+      50%{transform:translateY(10px)}
+    }
+
+    /* STORY */
+    .story{
+      max-width:900px;
+      margin:auto;
+      font-size:1.05rem;
+      line-height:1.9;
+      text-align:center;
+    }
+
+    /* TIMELINE */
+    .timeline{
+      margin-top:4rem;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:2rem;
+    }
+
+    .moment{
+      background:white;
+      padding:2rem;
+      border-radius:22px;
+      box-shadow:0 15px 40px rgba(0,0,0,0.08);
+      transition:.4s;
+    }
+
+    .moment:hover{
+      transform:translateY(-10px);
+    }
+
+    .moment h3{
+      color:var(--pink);
+      margin-bottom:.6rem;
+    }
+
+    /* GALLERY */
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:1.5rem;
+      margin-top:3rem;
+    }
+
+    .memory{
+      height:280px;
+      border-radius:20px;
+      background:linear-gradient(135deg,var(--rose),var(--pink));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:white;
+      font-size:1.1rem;
+      text-align:center;
+      padding:1rem;
+    }
+
+    /* LOVE LETTER */
+    .letter{
+      max-width:900px;
+      margin:auto;
+      font-size:1.1rem;
+      line-height:2;
+      background:white;
+      padding:3rem;
+      border-radius:30px;
+      box-shadow:0 20px 60px rgba(0,0,0,0.08);
+    }
+
+    /* PROMISES */
+    .promises{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:2rem;
+      margin-top:3rem;
+    }
+
+    .promise{
+      background:var(--soft);
+      padding:2rem;
+      border-radius:20px;
+      text-align:center;
+      font-weight:500;
+    }
+
+    /* BUTTON */
+    .center{
+      text-align:center;
+      margin-top:3rem;
+    }
+
+    button{
+      background:var(--pink);
+      color:white;
+      border:none;
+      padding:1rem 2.5rem;
+      border-radius:50px;
+      font-size:1rem;
+      cursor:pointer;
+      transition:.3s;
+    }
+
+    button:hover{
+      background:#ff2e55;
+      transform:scale(1.05);
+    }
+
+    /* FOOTER */
+    footer{
+      background:var(--soft);
+      padding:3rem 1rem;
+      text-align:center;
+      font-size:0.95rem;
+    }
+
+    footer span{color:var(--pink);font-weight:600;}
+
+    /* HEARTS */
+    .heart{
+      position:fixed;
+      top:-10px;
+      color:var(--pink);
+      font-size:18px;
+      animation:fall linear infinite;
+      opacity:.8;
+    }
+
+    @keyframes fall{
+      to{transform:translateY(110vh);}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Happy Valentine’s Day My Sur❤️</h1>
+    <p>
+      This page is a small piece of my heart — written, designed, and felt only for you.
+    </p>
+    <div class="scroll-down">Scroll down ↓</div>
+  </div>
+</header>
+
+<section>
+  <h2>Our Story</h2>
+  <div class="story">
+    <p>
+      Love didn’t arrive loudly. It came gently — through conversations, laughter, care,
+      and moments that slowly became memories. Somewhere between those moments,
+      you became my favorite part of every day.
+    </p>
+  </div>
+
+  <div class="timeline">
+    <div class="moment">
+      <h3>The First Moment</h3>
+      <p>When I used to like you but I still couldnt express my feelings to you</p>
+    </div>
+    <div class="moment">
+      <h3>Falling Slowly</h3>
+      <p>Every smile, every talk, every walk felt meaningful w you</p>
+    </div>
+    <div class="moment">
+      <h3>Still Choosing You</h3>
+      <p>Every day, without doubt, without hesitation. I Love You <3</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Our Memories</h2>
+  <div class="gallery">
+    <div class="memory">Trying new new places and food w you </div>
+    <div class="memory">Long walks holding your hand and laughing our heart out</div>
+    <div class="memory">Moments that felt like home w you</div>
+    <div class="memory">Us, just being us</div>
+  </div>
+</section>
+
+<section>
+  <h2>A Letter From My Heart</h2>
+  <div class="letter">
+    <p>
+<p style="margin-top:1.5rem;">
+      My Sur,
+
+I don’t know when it happened exactly, but somewhere between our conversations, our laughter, and those quiet moments that meant everything to me, you became my favorite part of every day. You make me the happiest, proudest and the most loved person on earth just by simply existing.
+
+With you, even ordinary moments feel special. Your presence brings calm to my chaos, warmth to my cold days, and a kind of happiness I never knew I was missing. You make me feel understood, cared for, and deeply valued and that means more to me than words can fully express.
+
+Thank you for being patient with me, for standing by me, for believing in me even when I struggle to believe in myself. Thank you for the smiles you give without trying, the comfort you offer without being asked, and the love you give me so effortlessly. Thanking for always choosing me and loving me even after being dissapointed by my actions and words.
+
+This isn’t just about today or Valentine’s Day. This is about choosing you again and again every single day. In the small moments, in the hard days, and in all the beautiful days ahead. My heart chooses you, now and always. M sorry for being like this w you. I just miss you so much and idk i need you so much.
+
+I love you more than words can say, and in ways I’ll keep showing every day.
+   
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>My Promises to You</h2>
+  <div class="promises">
+    <div class="promise">I promise to love you always even on the days u feel the whole world is against you but i will still be standing beside you</div>
+    <div class="promise">I promise to eat and sleep (hopefully)</div>
+    <div class="promise">I promise you that i will come back again v soon and give you all the love m lacking</div>
+  </div>
+
+  <div class="center">
+    <button onclick="showLove()">Click Me ❤️</button>
+  </div>
+</section>
+
+<footer>
+  <p>Made with <span>love</span>, only for you meri jaan.</p>
+</footer>
+
+<script>
+  // Falling hearts
+  function createHeart(){
+    const heart=document.createElement('div');
+    heart.classList.add('heart');
+    heart.innerText='❤️';
+    heart.style.left=Math.random()*100+'vw';
+    heart.style.animationDuration=(Math.random()*3+3)+'s';
+    document.body.appendChild(heart);
+    setTimeout(()=>heart.remove(),6000);
+  }
+  setInterval(createHeart,300);
+
+  function showLove(){
+    alert("I love you My Sur. Today, tomorrow and always mera puppa❤️");
+  }
+</script>
+
+</body>
+</html>
